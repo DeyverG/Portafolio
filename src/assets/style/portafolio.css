@@ -1,7 +1,7 @@
 .row{
     width: 100vw !important;
     background: #161616;
-    height: 73.4vh;
+    height: 74vh;
 }
 .columnImg{
     width: 50vw;
@@ -24,6 +24,7 @@
 }
 
 .titulo{
+    height: 11vh;
     background: #161616;
     font-size: 2.5rem;
     text-align: center;
