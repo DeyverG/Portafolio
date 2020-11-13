@@ -1,0 +1,91 @@
+.home{
+    height: 85vh;
+    background: #161616;
+    width: 100%;
+}
+
+.fb{
+    margin-top: 17vh;
+}
+
+.imgProp{
+    display: block;
+    width: 3rem;
+    filter: drop-shadow(0px 2px 4px black); 
+}
+.gh{
+    margin-top: 3.5vh;
+}
+.row{
+    width: 100vw !important;
+}
+
+.avatar{
+    position: relative;
+    width: 17vw;
+    height: 60vh;
+    filter: grayscale(100%);
+}
+.contenedorAvatar{
+    margin-left: 8vw;
+    display: inline-block;
+    text-align: center;
+    height: 50vh;
+    width: 17vw;
+    box-shadow: 0px 0px 3px #0093ff,0px 0px 4px white, 0px 0px 3px #0093ff;
+    overflow: hidden;
+    margin-top: 12vh;
+    border-radius: 5%;
+}
+.column1 {
+    margin-left: 5.5rem;
+    width: 3rem;
+}
+.column2{
+    width: 87vw;
+}
+  
+.row{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+}
+
+.logo{
+    margin-left: 13vw;
+    position: absolute;
+    display: inline;
+    width: 45vw;
+    filter: drop-shadow(0px 0px 5px black);
+}
+.jett{
+    margin-top: 15vh;
+    margin-left: 14vw;
+    position: absolute;
+    z-index: 1;
+    display: inline;
+    height: 35vh;
+    filter: drop-shadow(0px 0px 5px black);
+}
+.gamer{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Valorant;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 0px 0px 8px #0093ff;
+}
+
+@font-face {
+    font-family: "Valorant";
+    src: url("../fonts/Valorant-Font.ttf");
+}
+
+.contenedorGamer{
+    text-align: center;
+    width: 100%;
+}
+
+.imgProp:hover{
+    filter: drop-shadow(0px 0px 8px #0093ff);  
+}
