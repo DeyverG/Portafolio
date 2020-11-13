@@ -10,9 +10,10 @@ import paladins from '../assets/img/paladins.png';
 
 const Portafolio = () => {
 
-   const bigImg = document.getElementById('bigImg');
+   
 
    const handleChange = e => {
+      const bigImg = document.getElementById('bigImg');
       bigImg.src = e.target.src;
    }
 
